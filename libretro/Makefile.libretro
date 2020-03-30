@@ -14,6 +14,7 @@ EXTRA_PACKAGES ?=
 # Link statically against some system-installed libraries (audio codecs and libsndfile.)
 STATIC_PACKAGES ?= 0
 CMAKE_GENERATOR ?= Ninja
+
 GIT_VERSION := "$(shell git rev-parse --short HEAD)"
 SVN_VERSION := "$(shell cat svn)"
 
